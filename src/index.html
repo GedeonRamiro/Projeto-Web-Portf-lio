@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--MENU-->
+
+   <header>
+       <div class="bg-gray-50 pt-10 lg:pt-20">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-between pb-20">
+                <div>
+                    <a href="#"><img src="img/logo.png" alt="" class="ml-4 lg:ml-0 h-6 md:h-8"></a>
+                </div>
+                <div class="hidden lg:block pr-32">
+                    <ul class="flex flex-wrap text-xl">
+                        <li><a href="#" class="mr-20 hover:text-blue-600 duration-200">Home</a></li>
+                        <li><a href="#" class="mr-20 hover:text-blue-600 duration-200">Work</a></li>
+                        <li><a href="#" class="mr-32 hover:text-blue-600 duration-200">Blog</a></li>
+                        <li><a href="#" class="text-blue-600 border-2 border-blue-600 rounded-full py-3 px-6 hover:text-white hover:bg-blue-600 duration-200">Hire Me!</a></li>
+                    </ul>
+                </div>
+        <!--MENU RESPONSIVO-->
+                <button class="flex flex-col mr-6 lg:hidden" onclick="toggleNavbar('example-collapse-navbar')">
+                    <span class="border-b-2 border-black h-2 w-8"></span>
+                    <span class="border-b-2 border-black h-2 w-4"></span>
+                    <span class="border-b-2 border-black h-2 w-6"></span>
+                </button>
+            </div>
+        </div>
+            <!--HERO-->
+            <div class="">
+                <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
+                    <div class="">
+                        <img src="img/banner.png" alt="" class="bg-conatiner">
+                    </div>
+                    <div class="flex flex-col px-4 py-10 lg:max-w-2xl">
+                        <h4 class="text-2xl">Hello, I’m Deeje</h4>
+                        <h2 class="text-4xl py-6 font-semibold">Expert in Graphic Design &Development</h2>
+                        <p class="text-sm">Currently available for select projects, collaborations and consulting.Currently available for select projects, collaborations and consulting.</p>
+                        <div class="pt-10">
+                            <button href="#" class="bg-blue-600 text-white px-10 py-4 rounded-full hover:bg-blue-700 hover:shadow-2xl duration-300 ease-in-out transform hover:scale-110">See My work</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+       </div>
+   </header>
+
+   <main>
+
+       <!--SECAO CARD-->
+       <section>
+        <div class="container mx-auto">
+            <h2 class="text-center text-4xl text-gray-600 mt-32 tracking-widest">SERVICES</h2>
+            <div class="flex flex-wrap justify-around text-center">
+                <div class="flex flex-col items-center py-20 px-10 my-10 w-full lg:w-auto shadow-lg rounded-lg">
+                    <i class="fas fa-fill-drip text-5xl text-blue-600"></i>
+                    <h2 class="text-2xl font-semibold my-4">Web design</h2>
+                    <div class="bg-blue-500 border rounded-3xl border-blue-600 w-10 h-1 mb-4"></div>
+                    <p class="text-gray-500 max-w-xs">Well we're movin' on up to the east side. To a deluxe apartment in the sky.</p>
+                </div>
+                <div class="flex flex-col items-center py-20 px-10 my-10 w-full lg:w-auto bg-blue-600 text-white shadow-lg rounded-lg">
+                    <i class="far fa-gem text-5xl"></i>
+                    <h2 class="text-2xl font-semibold my-4">Mobile App</h2>
+                    <div class="bg-white border rounded-3xl border-white w-10 h-1 mb-4"></div>
+                    <p class="max-w-xs">Tracking immunizations has never been easier or more secure...</p>
+                </div>
+                 <div class="flex flex-col items-center py-20 px-10 my-10 w-full lg:w-auto shadow-lg rounded-lg">
+                    <i class="fas fa-magic text-5xl text-blue-600"></i>
+                    <h2 class="text-2xl font-semibold my-4">Barnding</h2>
+                    <div class="bg-blue-500 border rounded-3xl border-blue-600 w-10 h-1 mb-4"></div>
+                    <p class="text-gray-400 max-w-xs">Well we're movin' on up to the east side. To a deluxe apartment in the sky.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!--SECAO FOTOS-->
+       <section>
+         <div class="bg-gray-50">
+            <div class="container mx-auto pb-32">
+                <h2 class="text-center text-4xl text-gray-600 mt-32 tracking-widest pb-10 pt-32">PORTFOLIO</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center">
+                    <div class="">
+                        <img src="img/img01.jpg" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+                    <div>
+                        <img src="img/img02.jpg" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+                    <div>
+                        <img src="img/img03.jpg" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+                    <div>
+                        <img src="img/img04.jpg" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+                    <div>
+                        <img src="img/img05.jpg" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+                    <div>
+                        <img src="img/img06.png" alt="" class="p-4 duration-300 transform hover:scale-105">
+                    </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!--SECAO AWESOME-->
+       <section>
+           <div class="container mx-auto">
+              <div class="flex flex-wrap md:flex justify-between items-center px-6 py-20">
+                <div>
+                    <h2 class="text-3xl pb-6">Make It Awesome!</h2>
+                    <p class="text-base text-gray-600 md:max-w-md lg:max-w-2xl">There's nothing we wont try. Never heard the word impossible. This time there's no stopping us. The year is 1987 and NASA launches the last of Americas deep space probes.</p>
+                </div>
+                <div class="pt-10 pr-10">
+                    <a href="#" class="text-blue-600 border-2 border-blue-600 rounded-full py-3 px-6 hover:text-white hover:bg-blue-600 duration-200 ">Hire Me Now!</a>
+                </div>
+              </div>
+           </div>
+       </section>
+
+       <!--SECAO COMENTARIOS-->
+       <section>
+           <div class="bg-gray-50">
+                <div class="container mx-auto text-center px-6">
+                    <div class="flex flex-col items-center">
+                        <h2 class="text-4xl pt-32">What clients <br> Feedback about me</h2>
+                        <div class="flex justify-center pt-10">
+                            <img src="img/avatar.png" alt="" class="bg-white rounded-full p-1">
+                        </div>
+                        <h3 class="font-semibold">Allen Bell</h3>
+                        <h4 class="text-gray-400">Ux Designer</h4>
+                        <p class="max-w-4xl py-10">Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                    </div>
+                    <div class="flex justify-center pb-20">
+                        <a href="#" class="mx-2"><p class="bg-gray-400 w-2 h-2 mt-1 rounded-full"></p></a>
+                        <a href="#" class="mx-2"><p class="bg-gray-400 w-2 h-2 mt-1 rounded-full"></p></a>
+                        <a href="#" class="mx-2"><p class="bg-blue-600 border-4 border-blue-200 w-4 h-4 rounded-full"></p></a>
+                        <a href="#" class="mx-2"><p class="bg-gray-400 w-2 h-2 mt-1 rounded-full"></p></a>
+                        <a href="#" class="mx-2"><p class="bg-gray-400 w-2 h-2 mt-1 rounded-full"></p></a>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+       <!--FORMLÁRIO-->
+       <section>
+           <div class="bg-blue-50">
+                <div class="container mx-auto py-32">
+                    <h2 class="text-center text-gray-500 text-3xl font-semibold">Entre em contato</h2>
+                    <div class="flex justify-center items-center">
+                        <form action="" method="post" class="flex flex-col p-10 rounded-xl w-full max-w-lg">
+                            <label for="" class="text-gray-600 pt-4">Nome</label>
+                            <input type="text" class="border bg-gray-50 border-gray-400 rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-600">
+                            <label for="" class="text-gray-600 pt-4">E-mail</label>
+                            <input type="text" class="border bg-gray-50 border-gray-400 rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-600">
+                            <label for="" class="text-gray-600 pt-4">Mensagem </label>
+                            <textarea type="text" class="border bg-gray-50 border-gray-400 rounded p-2 focus:outline-none focus:ring-1 focus:ring-blue-600"> </textarea>
+                            <div class="pt-4">
+                                <button class="bg-blue-500 text-white py-2 px-6 rounded shadow hover:bg-blue-600 duration-300 transform hover:scale-105">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+            </div>
+           </div>
+       </section>
+    </main>
+
+       <footer>
+           <div class="container mx-auto py-10">
+                <div class="block lg:flex justify-center pl-10 lg:pl-0">
+                        <ul class="block md:flex flex-wrap text-md">
+                            <li class="pt-4"><a href="#" class="mr-20 hover:text-blue-600 duration-200">Home</a></li>
+                            <li class="pt-4"><a href="#" class="mr-20 hover:text-blue-600 duration-200">About Me</a></li>
+                            <li class="pt-4"><a href="#" class="mr-20 hover:text-blue-600 duration-200">Work</a></li>
+                            <li class="pt-4"><a href="#" class="mr-20 hover:text-blue-600 duration-200">Blog</a></li>
+                        </ul>
+                        <div class="relative pt-4">
+                            <input type="text" placeholder="search..." class="border rounded-full text-sm py-2 px-4 focus:ring-2 focus:ring-blue-600 outline-none ">
+                            <a href="#"><i class="fas fa-search text-gray-200 absolute -ml-8 mt-3"></i></a>
+                        </div>
+                </div>
+                <div class="flex justify-center my-10">
+                        <a href="#" class=""><i class="fab fa-facebook-f flex justify-center items-center bg-gray-400 text-white w-10 h-10 rounded-full hover:bg-blue-450 duration-300 hover:shadow-lg mx-4"></i></a>
+                    <a href="#"><i class="fab fa-twitter flex justify-center items-center bg-gray-400 text-white w-10 h-10 rounded-full hover:bg-blue-450 duration-300 hover:shadow-lg mx-4"></i></a>
+                    <a href=""><i class="fab fa-instagram flex justify-center items-center bg-gray-400 text-white w-10 h-10 rounded-full hover:bg-blue-450 duration-300 hover:shadow-lg mx-4"></i></a>
+                    <a href=""><i class="fab fa-youtube flex justify-center items-center bg-gray-400 text-white w-10 h-10 rounded-full hover:bg-blue-450 duration-300 hover:shadow-lg mx-4"></i></a>
+                </div>
+           </div>
+           <div class="border-t border-gray-200 text-center py-10 shadow-lg">
+            <p class="text-xs">Copyright  2017. Portfolio By VictorThemes </p>
+        </div>
+    </footer>
+   
+</body>
+</html>
